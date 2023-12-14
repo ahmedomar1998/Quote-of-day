@@ -1,0 +1,60 @@
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+background-color:#B2A59B;
+height: 100vh ;
+
+}
+header h1{
+    font-size: 70px;
+    font-family: fantasy;
+    color: 
+    #607274;
+    font-family: fantasy;
+    line-height: 30px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    border-bottom: 10px solid #FAEED1;
+    
+    
+}
+header  p {
+    font-size: 30px;
+    font-family: sans-serif;
+    color:#FAEED1;
+    
+    
+}
+header button{
+    padding: 20px 70px;
+    border-radius: 20px;
+    border: none;
+    font-family: sans-serif;
+    background-color: 
+    #FAEED1;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: sans-serif;
+    color: #607274;
+    transition: all .5s;
+}
+header button:hover{
+    background-color: #607274;
+    color:#FAEED1;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+header .Qoute {
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+header .Qoute p {
+    font-size: 30px;
+    color: #FAEED1;
+    font-family: serif;
+}
